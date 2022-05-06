@@ -102,8 +102,8 @@ class AssertionsExamplesTest {
         int[] ints = {1, 2, 3};
         //then
         assertAll(
-                () -> assertEquals(3, ints.length),
-                () -> assertEquals(2, ints[1])
+                () -> assertEquals(2, ints.length),
+                () -> assertEquals(5, ints[1])
         );
     }
 }
